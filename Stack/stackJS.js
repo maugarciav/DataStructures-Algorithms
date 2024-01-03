@@ -4,7 +4,7 @@ Functions; push, pop, peek, length
 */
 
 var letters = [] // our stack
-var word = "anitalavalatina"
+var word = "maugarcia"
 
 var rword = ""
 
@@ -20,3 +20,4 @@ for(let i = 0; i < word.length; i++){
 
 //Check for palindrome
 if(rword === word) console.log(word + " is a palindrome")
+else console.log(word + " isn't palindrome")
