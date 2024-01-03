@@ -5,13 +5,13 @@ class Stack {
     this.storage = {};
   }
 
-  // Método para agregar un valor al final de la pila
+  // Method to add a value to the end of the stack
   push(value) {
     this.storage[this.count] = value;
     this.count++;
   }
 
-  // Método para eliminar y devolver el valor al final de la pila
+  // Method to remove and return the value at the end of the stack
   pop() {
     if (this.count === 0) return undefined;
     this.count--;
@@ -20,17 +20,15 @@ class Stack {
     return result;
   }
 
-  // Método para obtener la longitud de la pila
+  // Method to get the length of the stack
   size() {
     return this.count;
   }
 
-  // Método para obtener el valor al final de la pila
+  // Method to get the value at the end of the stack
   peek() {
     return this.storage[this.count - 1];
   }
 }
 
-
 module.exports = Stack;
-
