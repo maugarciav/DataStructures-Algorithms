@@ -15,7 +15,7 @@ for(let i = 0; i < word.length; i++){
 
 // Pop in reverse order
 for(let i = 0; i < word.length; i++){
-  rword += letters.pop(word[i])
+  rword += letters.pop()
 }
 
 //Check for palindrome
