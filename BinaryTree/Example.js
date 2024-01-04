@@ -1,6 +1,5 @@
 const BST = require("./binaryTree");
 
-
 const bst = new BST();
 
 bst.add(4)
