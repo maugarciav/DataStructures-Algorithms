@@ -128,5 +128,4 @@ class BST {
   }
 }
 
-
-module.exports = BST;
+module.exports = { Node, BST };
