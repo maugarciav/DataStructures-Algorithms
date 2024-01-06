@@ -1,0 +1,13 @@
+ Graph
+
+ Undierected(no direction) && Directed
+
+How to represent them? 
+
+Adejacency List 
+Adejacency Matrix (can be used for directed graphs)
+Incidence Martix
+
+
+
+
